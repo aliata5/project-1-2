@@ -1,0 +1,20 @@
+Empirical experiment summary
+Input sizes: 100, 250, 500, 1000, 2000, 3000, 4000, 5000
+Timing repetitions per algorithm/case/size: 3; reported value: median
+Random seed: 20261029
+
+Insertion sort operation counts at n=5000:
+- sorted: comparisons=4999, shifts=0
+- reverse_sorted: comparisons=12497500, shifts=12497500
+- random: comparisons=6116226, shifts=6111237
+
+Observed runtime at n=5000 (seconds):
+- Insertion Sort, sorted: 0.00051349
+- Insertion Sort, reverse_sorted: 1.43264214
+- Insertion Sort, random: 0.74960115
+- Merge Sort, random: 0.00810216
+
+Interpretation: sorted input is the best case for insertion sort and typically grows linearly.
+Reverse-sorted input is its worst case; random input is expected to show quadratic growth.
+Merge sort is included as an empirical comparison on random inputs and has O(n log n) time complexity.
+Wall-clock timings depend on the machine, Python version, and system load; use the CSV for exact measurements.

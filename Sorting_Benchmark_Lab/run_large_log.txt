@@ -1,0 +1,10 @@
+Sorted   n=100000 Merge Sort       0.335071s
+Sorted   n=100000 Quick Sort       3.367055s
+Sorted   n=100000 Python sorted()  0.002634s
+Reversed n=100000 Merge Sort       0.310796s
+Reversed n=100000 Quick Sort       2.482813s
+Reversed n=100000 Python sorted()  0.001541s
+Random   n=100000 Merge Sort       0.433755s
+Random   n=100000 Quick Sort       0.442910s
+Random   n=100000 Python sorted()  0.025786s
+Wrote 9 verified measurements to /mnt/data/Sorting_Benchmark_Lab/results/timings.csv
